@@ -1,0 +1,10 @@
+bootstrap-servers: kafka:29092
+topic: minecraft-events
+queue-capacity: 10000
+move-throttle-ms: 1000
+stats-interval-seconds: 5
+producer:
+  acks: all
+  linger-ms: 10
+  batch-size: 32768
+enabled-events: [block_break, block_place, death, chat, join, quit, move, server_stats]

@@ -1,0 +1,6 @@
+name: McTelemetry
+version: 1.0.0
+main: edu.mc.telemetry.McTelemetryPlugin
+api-version: '1.21'
+author: Big Data Analytics Team
+description: Non-blocking Minecraft event telemetry to Kafka

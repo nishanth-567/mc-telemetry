@@ -1,0 +1,12 @@
+.env
+!.env.example
+*.log
+__pycache__/
+*.pyc
+node_modules/
+target/
+.spark_checkpoints/
+benchmark/results/*.csv
+benchmark/results/*.png
+docs/screenshots/*
+!docs/screenshots/.gitkeep
